@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+body{
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #888888;
+    background: linear-gradient(to bottom, green, blue); 
+    margin: 0; 
+    padding: 0; 
+}
+div{
+    display: flex;
+}
+.elements{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.elements ul{
+    font-size: 40px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    border: 1px solid black;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+.elements ul{
+    margin-bottom: 100px;
+    border: 1px solid black;
+    padding: 30px; 
+
+}
+.point1{
+    background-color: ivory;
+}
+.point2{
+    background-color: #C264FF;
+}
+.point3{
+    background-color: ivory;
+}
+.point4{
+    background-color: #C264FF;
+}
+.point5{
+    background-color: ivory;
+}
+.color01{
+    margin-bottom: 10px;
+}
+.color01-list{
+    margin: 0;
+    padding: 0;
+}
+.color02-list{
+    margin: 0;
+    padding: 0;
+}
+.color01{
+    margin-bottom: 10px;
+}
+.color02{
+    margin-bottom: 10px;
+}
+.button-column {
+    display: grid;
+    grid-template-columns: repeat(5, 10fr);
+    justify-items: center;
+    padding-top: 40px; 
+
+}
+.index-column{
+    margin-top: 20px;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 10fr);
+}
+
+.button-column button {
+    justify-self: center;
+    justify-content: center;
+}
+#nounButton{
+    background-color: turquoise;
+}
+#verbButton{
+    background-color: turquoise;
+}
+#adjectiveButton{
+    background-color: turquoise;
+}
+#nounButton2{
+    background-color: turquoise;
+}
+#placeButton{
+    background-color: turquoise;
+}
+#speakButton{
+    background-color: turquoise;
+}
+#generateButton{
+    background-color: turquoise;
+}
+#resetButton{
+    background-color: turquoise;
+}
+
